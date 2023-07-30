@@ -31,7 +31,7 @@ public class CHildCVCell: UICollectionViewCell {
     
     public let nameLabel: UILabel = {
         let label = UILabel()
-        label.backgroundColor = .red
+       // label.backgroundColor = .red
         label.text = "Имя"
         label.font = UIFont.systemFont(ofSize: 16)
         label.textColor = .gray
@@ -40,7 +40,7 @@ public class CHildCVCell: UICollectionViewCell {
     
     public let ageLabel: UILabel = {
         let label = UILabel()
-        label.backgroundColor = .red
+       // label.backgroundColor = .red
         label.text = "Возраст"
         label.font = UIFont.systemFont(ofSize: 16)
         label.textColor = .gray
@@ -103,7 +103,7 @@ public class CHildCVCell: UICollectionViewCell {
         nameTextField = TextFieldWithPadding(delegate: self, placeHolder: "Введите имя")
         nameTextField.translatesAutoresizingMaskIntoConstraints = false
         
-        nameTextField.backgroundColor = .cyan
+//        nameTextField.backgroundColor = .cyan
         
         
         
@@ -111,7 +111,7 @@ public class CHildCVCell: UICollectionViewCell {
         ageTextField = TextFieldWithPadding(delegate: self, placeHolder: "Введите возраст")
         ageTextField.translatesAutoresizingMaskIntoConstraints = false
        
-        ageTextField.backgroundColor = .cyan
+//        ageTextField.backgroundColor = .cyan
         
         view1.addSubview(nameTextField)
         view2.addSubview(ageTextField)
@@ -138,7 +138,7 @@ public class CHildCVCell: UICollectionViewCell {
             ageTextField.widthAnchor.constraint(equalTo: view2.widthAnchor, constant: -40),
             
             button.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: (contentView.frame.width / 2 ) + 5),
-            button.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            button.centerYAnchor.constraint(equalTo: view1.centerYAnchor),
             
             view1.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.5, constant: -10),
             view2.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.5, constant: -10),

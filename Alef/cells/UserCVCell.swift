@@ -14,7 +14,7 @@ public class UserCVCell: UICollectionViewCell {
     
     public let nameLabel: UILabel = {
         let label = UILabel()
-        label.backgroundColor = .red
+        //label.backgroundColor = .red
         label.text = "Имя"
         label.font = UIFont.systemFont(ofSize: 16)
         label.textColor = .gray
@@ -23,7 +23,7 @@ public class UserCVCell: UICollectionViewCell {
     
     public let ageLabel: UILabel = {
         let label = UILabel()
-        label.backgroundColor = .red
+       // label.backgroundColor = .red
         label.text = "Возраст"
         label.font = UIFont.systemFont(ofSize: 16)
         label.textColor = .gray
@@ -84,7 +84,7 @@ public class UserCVCell: UICollectionViewCell {
         nameTextField = TextFieldWithPadding(delegate: self, placeHolder: "Введите имя")
         nameTextField.translatesAutoresizingMaskIntoConstraints = false
         
-        nameTextField.backgroundColor = .cyan
+       // nameTextField.backgroundColor = .cyan
         
         
         
@@ -93,7 +93,7 @@ public class UserCVCell: UICollectionViewCell {
         ageTextField.translatesAutoresizingMaskIntoConstraints = false
        
         
-        ageTextField.backgroundColor = .cyan
+        //ageTextField.backgroundColor = .cyan
         
         view1.addSubview(nameTextField)
         view2.addSubview(ageTextField)

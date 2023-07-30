@@ -118,7 +118,7 @@ public class PDCollectionView: UICollectionView {
     }
     
     private func configure(cell: UICollectionViewCell) -> UICollectionViewCell {
-        cell.backgroundColor = UIColor.red
+      //  cell.backgroundColor = UIColor.red
         return cell
     }
     
