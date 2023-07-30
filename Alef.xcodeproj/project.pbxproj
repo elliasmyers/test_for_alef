@@ -13,6 +13,17 @@
 		AB5EC6572A7143AA0005BBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5EC6552A7143AA0005BBC9 /* Main.storyboard */; };
 		AB5EC6592A7143AB0005BBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5EC6582A7143AB0005BBC9 /* Assets.xcassets */; };
 		AB5EC65C2A7143AB0005BBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5EC65A2A7143AB0005BBC9 /* LaunchScreen.storyboard */; };
+		AB5EC6642A7144AE0005BBC9 /* PDCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EC6632A7144AE0005BBC9 /* PDCollectionView.swift */; };
+		AB5EC6662A7146D00005BBC9 /* ConfigurePDCollectionLayout.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EC6652A7146D00005BBC9 /* ConfigurePDCollectionLayout.swift.swift */; };
+		AB5EC6682A7167D10005BBC9 /* UserCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EC6672A7167D10005BBC9 /* UserCVCell.swift */; };
+		AB5EC66A2A7174560005BBC9 /* TextFieldWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EC6692A7174560005BBC9 /* TextFieldWithPadding.swift */; };
+		AB5EC66E2A719E170005BBC9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EC66D2A719E170005BBC9 /* Models.swift */; };
+		AB5EC6712A73E92A0005BBC9 /* PersonalDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EC6702A73E92A0005BBC9 /* PersonalDataBuilder.swift */; };
+		AB5EC6732A7409BE0005BBC9 /* ChildVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EC6722A7409BE0005BBC9 /* ChildVCCell.swift */; };
+		ABAFDAB72A76840B0046DB9C /* PersonalDataSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFDAB62A76840B0046DB9C /* PersonalDataSupplementaryView.swift */; };
+		ABAFDABB2A76C1630046DB9C /* ChildsSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFDABA2A76C1630046DB9C /* ChildsSupplementaryView.swift */; };
+		ABAFDABD2A76C1AF0046DB9C /* ChildsFotterSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFDABC2A76C1AF0046DB9C /* ChildsFotterSupplementaryView.swift */; };
+		ABAFDABF2A76D57A0046DB9C /* extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAFDABE2A76D57A0046DB9C /* extension-UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		AB5EC6582A7143AB0005BBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5EC65B2A7143AB0005BBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5EC65D2A7143AB0005BBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5EC6632A7144AE0005BBC9 /* PDCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDCollectionView.swift; sourceTree = "<group>"; };
+		AB5EC6652A7146D00005BBC9 /* ConfigurePDCollectionLayout.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurePDCollectionLayout.swift.swift; sourceTree = "<group>"; };
+		AB5EC6672A7167D10005BBC9 /* UserCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCVCell.swift; sourceTree = "<group>"; };
+		AB5EC6692A7174560005BBC9 /* TextFieldWithPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPadding.swift; sourceTree = "<group>"; };
+		AB5EC66D2A719E170005BBC9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AB5EC6702A73E92A0005BBC9 /* PersonalDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataBuilder.swift; sourceTree = "<group>"; };
+		AB5EC6722A7409BE0005BBC9 /* ChildVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVCCell.swift; sourceTree = "<group>"; };
+		ABAFDAB62A76840B0046DB9C /* PersonalDataSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataSupplementaryView.swift; sourceTree = "<group>"; };
+		ABAFDABA2A76C1630046DB9C /* ChildsSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildsSupplementaryView.swift; sourceTree = "<group>"; };
+		ABAFDABC2A76C1AF0046DB9C /* ChildsFotterSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildsFotterSupplementaryView.swift; sourceTree = "<group>"; };
+		ABAFDABE2A76D57A0046DB9C /* extension-UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension-UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,58 @@
 		AB5EC64E2A7143AA0005BBC9 /* Alef */ = {
 			isa = PBXGroup;
 			children = (
+				ABAFDAB52A7683C80046DB9C /* Views */,
+				AB5EC66F2A719FE70005BBC9 /* VK */,
+				AB5EC66C2A719DEF0005BBC9 /* Models */,
+				AB5EC66B2A71855D0005BBC9 /* cells */,
 				AB5EC64F2A7143AA0005BBC9 /* AppDelegate.swift */,
 				AB5EC6512A7143AA0005BBC9 /* SceneDelegate.swift */,
-				AB5EC6532A7143AA0005BBC9 /* ViewController.swift */,
 				AB5EC6552A7143AA0005BBC9 /* Main.storyboard */,
 				AB5EC6582A7143AB0005BBC9 /* Assets.xcassets */,
 				AB5EC65A2A7143AB0005BBC9 /* LaunchScreen.storyboard */,
 				AB5EC65D2A7143AB0005BBC9 /* Info.plist */,
 			);
 			path = Alef;
+			sourceTree = "<group>";
+		};
+		AB5EC66B2A71855D0005BBC9 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB5EC6672A7167D10005BBC9 /* UserCVCell.swift */,
+				AB5EC6722A7409BE0005BBC9 /* ChildVCCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		AB5EC66C2A719DEF0005BBC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB5EC66D2A719E170005BBC9 /* Models.swift */,
+				AB5EC6702A73E92A0005BBC9 /* PersonalDataBuilder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB5EC66F2A719FE70005BBC9 /* VK */ = {
+			isa = PBXGroup;
+			children = (
+				AB5EC6532A7143AA0005BBC9 /* ViewController.swift */,
+				AB5EC6652A7146D00005BBC9 /* ConfigurePDCollectionLayout.swift.swift */,
+			);
+			path = VK;
+			sourceTree = "<group>";
+		};
+		ABAFDAB52A7683C80046DB9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB5EC6632A7144AE0005BBC9 /* PDCollectionView.swift */,
+				AB5EC6692A7174560005BBC9 /* TextFieldWithPadding.swift */,
+				ABAFDAB62A76840B0046DB9C /* PersonalDataSupplementaryView.swift */,
+				ABAFDABA2A76C1630046DB9C /* ChildsSupplementaryView.swift */,
+				ABAFDABC2A76C1AF0046DB9C /* ChildsFotterSupplementaryView.swift */,
+				ABAFDABE2A76D57A0046DB9C /* extension-UIView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5EC66A2A7174560005BBC9 /* TextFieldWithPadding.swift in Sources */,
+				ABAFDABB2A76C1630046DB9C /* ChildsSupplementaryView.swift in Sources */,
+				AB5EC6642A7144AE0005BBC9 /* PDCollectionView.swift in Sources */,
 				AB5EC6542A7143AA0005BBC9 /* ViewController.swift in Sources */,
+				AB5EC66E2A719E170005BBC9 /* Models.swift in Sources */,
+				ABAFDAB72A76840B0046DB9C /* PersonalDataSupplementaryView.swift in Sources */,
 				AB5EC6502A7143AA0005BBC9 /* AppDelegate.swift in Sources */,
+				AB5EC6732A7409BE0005BBC9 /* ChildVCCell.swift in Sources */,
 				AB5EC6522A7143AA0005BBC9 /* SceneDelegate.swift in Sources */,
+				AB5EC6662A7146D00005BBC9 /* ConfigurePDCollectionLayout.swift.swift in Sources */,
+				ABAFDABF2A76D57A0046DB9C /* extension-UIView.swift in Sources */,
+				ABAFDABD2A76C1AF0046DB9C /* ChildsFotterSupplementaryView.swift in Sources */,
+				AB5EC6712A73E92A0005BBC9 /* PersonalDataBuilder.swift in Sources */,
+				AB5EC6682A7167D10005BBC9 /* UserCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

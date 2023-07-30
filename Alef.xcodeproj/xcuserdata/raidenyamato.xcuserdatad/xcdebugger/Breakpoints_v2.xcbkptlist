@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D14009F-1A88-46CA-81B5-20FEAD3FCAFA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF8F0983-E48B-4BAD-9501-76F149BEABBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alef/Views/PDCollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "configureDiffableDataSource()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF8F0983-E48B-4BAD-9501-76F149BEABBD - 535f702f29fee20d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alef.PDCollectionView.configureDiffableDataSource() -&gt; ()"
+                  moduleName = "Alef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raidenyamato/Desktop/for%20interview/Alef/Alef/Views/PDCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "CF8F0983-E48B-4BAD-9501-76F149BEABBD - e69f2e88a00a8432"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in Alef.PDCollectionView.configureDiffableDataSource() -&gt; ()"
+                  moduleName = "Alef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raidenyamato/Desktop/for%20interview/Alef/Alef/Views/PDCollectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56C1FC2F-997F-473C-96AF-7ED6ACFB271E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alef/VK/ConfigurePDCollectionLayout.swift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "configureCollectionLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5144A1A4-469E-46C6-8D52-D9493B3C2457"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alef/VK/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
